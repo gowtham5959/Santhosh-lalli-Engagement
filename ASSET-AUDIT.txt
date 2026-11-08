@@ -1,0 +1,15 @@
+HTTrack asset audit
+
+Present locally:
+- 12 WebP image assets (including logo)
+- thumbnail.jpg
+- favicon.svg
+- music.mp3
+- original React JavaScript and CSS bundles
+- 52 TTF font files (now connected through assets/local-fonts.css)
+
+Not present locally (original CSS references the original Netlify URLs):
+https://indrajith-rebekah-wedding.netlify.app/assets/family-invitation-paper-DtXyzIjB.webp
+https://indrajith-rebekah-wedding.netlify.app/assets/family-invitation-paper-v2-CXcp8vkD.webp
+
+Manrope was also not among the downloaded font files. A local Montserrat-based Manrope alias is included as fallback.
